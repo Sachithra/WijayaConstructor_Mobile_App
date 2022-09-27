@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/drawable/ic_baseline_person_sadd_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/drawable/ic_baseline_person_sremove_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/drawable/ic_baseline_person_wremove_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_add_construction_sites.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_add_supervisor.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_add_workers.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_delete_and_update_supervisor.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_delete_and_update_workers.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_log_out.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_main.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_main_supervisor.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_mark_atendance_workers.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_registe_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_register_admin.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_salary_cal.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/activity_view_supervisor_and_workers.xml" value="0.264" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/home_fragment.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/layout/nav_header_supervisor.xml" value="0.2" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ebay 02/AndroidStudioProjects/Wijaya_Constructions/app/src/main/res/menu/menu2.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

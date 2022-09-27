@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+
+
+
+        <item
+            android:id="@+id/workeradd"
+            android:title="Add Workers"
+            android:icon="@drawable/ic_baseline_person_wadd_24"
+            ></item>
+
+
+
+        <item
+            android:id="@+id/wremove"
+            android:title="Remove/Update Workers"
+            android:icon="@drawable/ic_baseline_person_wremove_24"
+            ></item>
+
+
+        <item
+            android:id="@+id/atendance"
+            android:title="Worker Atendance"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            ></item>
+
+
+        <item
+            android:id="@+id/cal"
+            android:title="Calculate Salary"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            ></item>
+
+        <item  android:title="OTHERS">
+            <menu>
+                <item
+                    android:id="@+id/logout"
+                    android:title="LogOut"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    ></item>
+
+
+
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+</menu>

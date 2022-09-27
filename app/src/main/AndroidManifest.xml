@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wijaya_constructions">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wijaya_Constructions">
+        <activity
+            android:name=".Log_Out"
+            android:exported="true" />
+        <activity
+            android:name=".Salary_Cal"
+            android:exported="true" />
+        <activity
+            android:name=".Mark_Atendance_Workers"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity_Supervisor"
+            android:exported="true" />
+        <activity
+            android:name=".View_Supervisor_And_Workers"
+            android:exported="true" />
+        <activity
+            android:name=".Registe_Admin"
+            android:exported="true" />
+        <activity
+            android:name=".AddConstructionSites"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteAndUpdateWorkers"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".DeleteAndUpdateSupervisor"
+            android:exported="true" />
+        <activity
+            android:name=".Register_Workers"
+            android:exported="true" />
+        <activity
+            android:name=".Registerr_Supervisor"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

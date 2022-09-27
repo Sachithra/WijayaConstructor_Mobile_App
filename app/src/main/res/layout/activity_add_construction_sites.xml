@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addsite"
+    tools:context=".AddConstructionSites">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="Site Name"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="29dp"
+        android:text="Site Id"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="71dp"
+        android:text="Cost"
+        app:layout_constraintBottom_toBottomOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="Hand over date"
+        app:layout_constraintBottom_toBottomOf="@+id/handoverTV"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Hand out date"
+        app:layout_constraintBaseline_toBaselineOf="@+id/handOutTV"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/sitenameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="71dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/siteidTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/sitenameTV"
+        app:layout_constraintTop_toBottomOf="@+id/sitenameTV" />
+
+    <EditText
+        android:id="@+id/handoverTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/siteidTV"
+        app:layout_constraintTop_toBottomOf="@+id/siteidTV" />
+
+    <EditText
+        android:id="@+id/handOutTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/costTV"
+        app:layout_constraintStart_toEndOf="@+id/textView36" />
+
+    <EditText
+        android:id="@+id/costTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="@+id/handOutTV" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="74dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="45dp"
+        android:onClick="OnSetDate2"
+        android:text="set"
+        app:layout_constraintBottom_toBottomOf="@+id/costTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toTopOf="@+id/handOutTV" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="82dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="OnSetDate"
+        android:text="set"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintEnd_toEndOf="@+id/handoverTV"
+        app:layout_constraintStart_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/handoverTV" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="131dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="OnAddSite"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
